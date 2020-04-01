@@ -1,0 +1,159 @@
+/*
+ * Globals
+ */
+
+/* Links */
+
+body{
+  background-color: whitesmoke !important ;
+}
+
+/* Custom default button */
+.btn{
+  color: white !important;
+  background-color: #400082 !important;
+  border: .05rem solid #fff;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #ff0000;
+  background-color: #ff0000 !important;
+  border: .05rem solid #fff;
+}
+h1{
+  font-family: 'Nunito', sans-serif !important;
+  color: black;
+}
+h3{
+  font-family: 'Nunito', sans-serif !important;
+  color: #400082;
+  font-size: 30px !important;
+}
+p{
+  font-family: 'Open Sans', sans-serif !important;
+  color: black;
+}
+.active{
+  color: black !important;
+}
+.notactive{
+  color: black !important;
+  opacity: 50%;
+}
+a{
+  font-family: 'Open Sans', sans-serif !important;
+}
+.btn{
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+.pill{
+  border-radius: 25px !important;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: #400082 ;
+  opacity: 50%;
+  border-bottom-left-radius: 2px !important;
+  border-bottom-right-radius: 2px !important;
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: black;
+  border-bottom-color: #400082;
+  border-bottom-left-radius: 2px !important;
+  border-bottom-right-radius: 2px !important;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+  text-align: center;
+  font-size: 12px;
+}
+*::selection{
+  background-color: #4B0082;
+  color: white;
+  border-radius: 25px;
+}
+
+.title-la{
+  font-family: 'Nunito', sans-serif !important;
+  color: #400082;
+  font-size: 30px !important;
+}
+.title-la:hover{
+  font-family: 'Nunito', sans-serif !important;
+  color: #400082;
+  font-size: 30px !important;
+  text-decoration: underline;
+}
