@@ -34,19 +34,123 @@
 <br>
 
 
-                     
-                                              
-<div class="container-fluid">
+          <div class="container">
+<h1 style="text-align: center;">Welcome to Listening Archive!</h1>           
+<br>
+<h3><u>About us</u></h3>
+        <p class="blogpost-text">We lovingly craft your stories into weekly episodes of entertaining, inspiring and heart-warming nuggets that aim to distill the best of the human spirit and build a unique perspective of what it means to be you.</p>
+          <p class="blogpost-text">Co-created by Aimee Coelho and Charlie Kilner, we aim to explore the breadth of our communities stories and to share the experience of all manner of people across the globe.</p>
+          <p class="blogpost-text">This podcast is very much a collaborative effort between not only Charlie and Aimee but also our incredibly talented contributors, without whom we would be lost without a story to tell. If you would like to participate in Listening Archive, visit our <a href="record.html">record</a> page where you will be able to submit .The idea is about creating the space where you can tell the story you always wanted to hear.</p>
+          <p class="blogpost-text">Feel free to reach out to us with any comments, suggestions or to speak your thoughts too.. <br>We would love to hear from you.. <a href="#JotFormIFrame-200915046117043">contact us below!</a></p>
 
+<div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-3">
+          <div class="card shadow">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Aimee Coelho</h5>
+              <p class="card-text">Aimee is a freelance journalist and head of Media at Millfield School.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-3">
+                <div class="card shadow">
+                  <img src="charlie.JPG" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Charlie Kilner</h5>
+                    <p class="card-text">Charlie is a 2020 six-form leaver who studied Computer Science, Media and Business at A-Level.</p>
+                  </div>
+                </div>
+              </div>
+        <div class="col mb-3">
+          <div class="card shadow">
+                <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1285983.8256233444!2d-5.073405195944858!3d50.98497290328674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486ac6e34475f70b%3A0xf54301654244aaa6!2sSouth%20West%20England!5e0!3m2!1sen!2suk!4v1585777601963!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <div class="card-body">
+              <h5 class="card-title">Located in South West of England</h5>
+              <p class="card-text">Listening Archie is founded in the South West of England, but is for the world.</p>
+            </div>
+          </div>
+        </div>
 
-    </div>
+    
+    <iframe
+      id="JotFormIFrame-200915046117043"
+      title="Contact us !"
+      onload="window.parent.scrollTo(0,0)"
+      allowtransparency="true"
+      allowfullscreen="true"
+      allow="geolocation; microphone; camera"
+      src="https://form.jotform.com/200915046117043"
+      frameborder="0"
+      style="
+      min-width: 100%;
+      height:539px;
+      border:none;"
+      scrolling="no"
+    >
+    </iframe>
+    <script type="text/javascript" class="shadow">
+      var ifr = document.getElementById("JotFormIFrame-200915046117043");
+      if(window.location.href && window.location.href.indexOf("?") > -1) {
+        var get = window.location.href.substr(window.location.href.indexOf("?") + 1);
+        if(ifr && get.length > 0) {
+          var src = ifr.src;
+          src = src.indexOf("?") > -1 ? src + "&" + get : src  + "?" + get;
+          ifr.src = src;
+        }
+      }
+      window.handleIFrameMessage = function(e) {
+        if (typeof e.data === 'object') { return; }
+        var args = e.data.split(":");
+        if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[(args.length - 1)]); } else { iframe = document.getElementById("JotFormIFrame"); }
+        if (!iframe) { return; }
+        switch (args[0]) {
+          case "scrollIntoView":
+            iframe.scrollIntoView();
+            break;
+          case "setHeight":
+            iframe.style.height = args[1] + "px";
+            break;
+          case "collapseErrorPage":
+            if (iframe.clientHeight > window.innerHeight) {
+              iframe.style.height = window.innerHeight + "px";
+            }
+            break;
+          case "reloadPage":
+            window.location.reload();
+            break;
+          case "loadScript":
+            var src = args[1];
+            if (args.length > 3) {
+                src = args[1] + ':' + args[2];
+            }
+            var script = document.createElement('script');
+            script.src = src;
+            script.type = 'text/javascript';
+            document.body.appendChild(script);
+            break;
+          case "exitFullscreen":
+            if      (window.document.exitFullscreen)        window.document.exitFullscreen();
+            else if (window.document.mozCancelFullScreen)   window.document.mozCancelFullScreen();
+            else if (window.document.mozCancelFullscreen)   window.document.mozCancelFullScreen();
+            else if (window.document.webkitExitFullscreen)  window.document.webkitExitFullscreen();
+            else if (window.document.msExitFullscreen)      window.document.msExitFullscreen();
+            break;
+        }
+        var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
+        if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) {
+          var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)};
+          iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*");
+        }
+      };
+      if (window.addEventListener) {
+        window.addEventListener("message", handleIFrameMessage, false);
+      } else if (window.attachEvent) {
+        window.attachEvent("onmessage", handleIFrameMessage);
+      }
+      </script>
 
-
-
-
-
-
-
+<br>
 
                   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
