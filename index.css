@@ -105,5 +105,16 @@ a.custom-card:hover {
   height: 50px;
   border-radius: 50%;
 }
+.record-title{
+  font-weight: 700;
+  color: #400082;
+}
+
+.card-img-top {
+  width: 100% !important;
+  height: 15vw !important;
+  object-fit: cover !important;
+  filter: grayscale(100%)!important;
+}
 
   
