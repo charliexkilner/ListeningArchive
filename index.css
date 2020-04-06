@@ -114,7 +114,20 @@ a.custom-card:hover {
   width: 100% !important;
   height: 15vw !important;
   object-fit: cover !important;
-  filter: grayscale(100%)!important;
 }
 
-  
+.top {
+  filter: grayscale(100%)!important;
+}
+.press:hover{
+  outline-color: green !important;
+}
+.zoom{
+  transition: transform .2s !important;
+}
+.zoom:hover {
+  transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.btn-floating{
+  color: black;
+}
