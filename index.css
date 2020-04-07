@@ -118,6 +118,7 @@ a.custom-card:hover {
 
 .top {
   filter: grayscale(100%)!important;
+  height: 400px !important;
 }
 .press:hover{
   outline-color: green !important;
@@ -130,4 +131,8 @@ a.custom-card:hover {
 }
 .btn-floating{
   color: black;
+}
+
+.press-title{
+  color: #400082;
 }
